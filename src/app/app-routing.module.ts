@@ -12,7 +12,7 @@ import { Tema4Component } from './teoriya/tema4/tema4.component';
 import { Test1Component } from './tests/test1/test1.component';
 import { Test2Component } from './tests/test2/test2.component';
 import { OProekteComponent } from './o-proekte/o-proekte.component';
-
+import { PractikaComponent } from './practika/practika.component';
 
 const routes: Routes = [
   {path:'',component: HomeComponent },
@@ -26,6 +26,7 @@ const routes: Routes = [
   {path: 'teoriya/tema3',component:Tema3Component },
   {path: 'teoriya/tema4',component:Tema4Component },
   {path: 'oproekte',component:OProekteComponent },
+  {path: 'practika',component:PractikaComponent },
   {path:'**',component: NotFoundComponent}
 ];
 

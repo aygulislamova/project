@@ -15,6 +15,7 @@ import { Tema4Component } from './teoriya/tema4/tema4.component';
 import { Test1Component } from './tests/test1/test1.component';
 import { Test2Component } from './tests/test2/test2.component';
 import { OProekteComponent } from './o-proekte/o-proekte.component';
+import { PractikaComponent } from './practika/practika.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +31,8 @@ import { OProekteComponent } from './o-proekte/o-proekte.component';
     Tema4Component,
     Test1Component,
     Test2Component,
-    OProekteComponent
+    OProekteComponent,
+    PractikaComponent
   ],
   imports: [
     BrowserModule,
