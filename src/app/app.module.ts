@@ -16,7 +16,13 @@ import { Test1Component } from './tests/test1/test1.component';
 import { Test2Component } from './tests/test2/test2.component';
 import { OProekteComponent } from './o-proekte/o-proekte.component';
 import { PractikaComponent } from './practika/practika.component';
-
+import { Tema6Component } from './teoriya/tema6/tema6.component';
+import { Tema5Component } from './teoriya/tema5/tema5.component';
+import { Tema7Component } from './teoriya/tema7/tema7.component';
+import { IgriComponent } from './practika/igri/igri.component';
+import {GimnastikaComponent} from './practika/gimnastika/gimnastika.component';
+import { ElementsComponent } from './practika/gimnastika/elements/elements.component';
+import { Test4Component } from './test4/test4.component';
 @NgModule({
   declarations: [
     AppComponent,
@@ -32,7 +38,14 @@ import { PractikaComponent } from './practika/practika.component';
     Test1Component,
     Test2Component,
     OProekteComponent,
-    PractikaComponent
+    PractikaComponent,
+    Tema6Component,
+    Tema5Component,
+    Tema7Component,
+    IgriComponent,
+    GimnastikaComponent,
+    ElementsComponent,
+    Test4Component
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-test2',
@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./test2.component.css']
 })
 export class Test2Component {
+// score: any;
+// option: any;
+// question: any;
 
+
+  
 }

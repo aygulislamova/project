@@ -1,4 +1,4 @@
-h2{
+h1{
     text-align: center;
 }
 .one, .two{
@@ -70,19 +70,13 @@ h2{
     grid-row: 4/5;
     align-self: center;
   }
-  
-  /* CARD BACKGROUNDS */
-  
   .card-1 {
-    background: radial-gradient(#1fe4f5, #3fbafe);
+    background: radial-gradient(#ffd000, #f9c94e);
   }
   
   .card-2 {
-    background: radial-gradient(#fbc1cc, #fa99b2);
+    background: radial-gradient(#00ff08, #66f05d);
   }
-
-  
-  /* RESPONSIVE */
   
   @media (max-width: 1600px) {
     .cards {

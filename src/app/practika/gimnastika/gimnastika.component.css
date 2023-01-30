@@ -1,0 +1,41 @@
+.textcols {
+	overflow: hidden;
+    font-size: 1.5em; 
+
+
+    
+}
+.textcols-left {
+    
+	float: left;
+	width: 48%;
+	background: #e1e2e9;
+    border-radius: 30px;
+}
+.textcols-right {
+	margin-left: 52%;
+	background: #e1e2e9;
+    border-radius: 30px;
+
+}
+h1,h2,h3{
+    text-align: center;
+}
+p{
+    text-align:justify;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+a{
+    text-decoration: none;
+}
+a{
+    color: rgb(60, 0, 201);
+}
+.zpl{
+    display: block;
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 30px;
+    background: #e1e2e9; ;
+}

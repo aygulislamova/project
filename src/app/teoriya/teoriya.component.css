@@ -68,17 +68,23 @@
   /* CARD BACKGROUNDS */
   
   .card-1 {
-    background: radial-gradient(#ffaf3e, #fea53f);
+    background: radial-gradient(#ff7104, #e35218);
   }
   
   .card-2 {
     background: radial-gradient(#fbc1cc, #fa99b2);
   }
   .card-3 {
-    background: radial-gradient(#00ff04, #12ce41);
+    background: radial-gradient(#a8eb18, #a8ff65);
   }
   .card-4 {
     background: radial-gradient(#4c00ff, #4813a9);
+  }
+  .card-5 {
+    background: radial-gradient(#fff200, #faf02b);
+  }
+  .card-6 {
+    background: radial-gradient(#ff4242, #dd1c30);
   }
 
   

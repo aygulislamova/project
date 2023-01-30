@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    padding-bottom: 1.1em;
+}
+p{
+    padding-left: 5%;
+    padding-right: 5%;
+   
+}
+.block{
+    font-size: 1.3em;
+}
+ul,ol{
+    line-height: 2;
+    padding-top: 1.2em;
+    padding-bottom: 1.2em;
+}
+a.knopka {
+    color: #fff; /* цвет текста */
+    text-decoration: none; /* убирать подчёркивание у ссылок */
+    user-select: none; /* убирать выделение текста */
+    background: rgb(212,75,56); /* фон кнопки */
+    padding: .7em 1.5em; /* отступ от текста */
+    outline: none; /* убирать контур в Mozilla */
+  } 
+  a.knopka:hover { background: rgb(232,95,76); } /* при наведении курсора мышки */
+  a.knopka:active { background: rgb(152,15,0); } /* при нажатии */
