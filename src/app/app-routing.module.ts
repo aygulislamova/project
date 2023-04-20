@@ -13,17 +13,26 @@ import { Tema5Component } from './teoriya/tema5/tema5.component';
 import { Tema6Component } from './teoriya/tema6/tema6.component';
 import { Test1Component } from './tests/test1/test1.component';
 import { Test2Component } from './tests/test2/test2.component';
+import { Test3Component } from './tests/test3/test3.component';
+import { Test4Component } from './tests/test4/test4.component';
+import { Test5Component } from './tests/test5/test5.component';
+import { Test6Component } from './tests/test6/test6.component';
 import { OProekteComponent } from './o-proekte/o-proekte.component';
 import { PractikaComponent } from './practika/practika.component';
 import { GimnastikaComponent } from './practika/gimnastika/gimnastika.component';
 import { IgriComponent } from './practika/igri/igri.component';
 import { ElementsComponent } from './practika/gimnastika/elements/elements.component';
+import { Elements2Component } from './practika/igri/elements2/elements2.component';
 const routes: Routes = [
   {path:'',component: HomeComponent },
   {path:'dop-inf',component: DopInfComponent },
   {path:'teoriya',component: TeoriyaComponent },
   {path:'tests',component: TestsComponent },
   {path:'tests/test1',component: Test1Component },
+  {path:'tests/test3',component: Test3Component },
+  {path:'tests/test4',component: Test4Component },
+  {path:'tests/test5',component: Test5Component },
+  {path:'tests/test6',component: Test6Component },
   {path:'tests/test2',component: Test2Component },
   {path: 'teoriya/tema1',component:Tema1Component },
   {path: 'teoriya/tema2',component:Tema2Component },
@@ -35,6 +44,7 @@ const routes: Routes = [
   {path: 'practika',component:PractikaComponent },
   {path: 'practika/gimnastika',component:GimnastikaComponent },
   {path: 'practika/gimnastika/elements',component:ElementsComponent },
+  {path: 'practika/igri/elements2',component:Elements2Component },
   {path: 'practika/igri',component:IgriComponent },
   
   {path:'**',component: NotFoundComponent}

@@ -17,17 +17,15 @@ body {
   padding: 0 10px;
 }
 
-/* Удалите лишние левые и правые поля, из-за заполнения */
 .row {margin: 0 -5px;}
 
-/* Очистить поплавки после столбцов */
+
 .row:after {
   content: "";
   display: table;
   clear: both;
 }
 
-/* Отзывчивые столбцы */
 @media screen and (max-width: 600px) {
   .column {
     width: 100%;
@@ -41,6 +39,6 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 16px;
   text-align: center;
-  background-color: #f1f1f1;
-}
+  background-color: #ffbb00c0;
+} 
   

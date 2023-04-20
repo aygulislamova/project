@@ -14,6 +14,10 @@ import { Tema3Component } from './teoriya/tema3/tema3.component';
 import { Tema4Component } from './teoriya/tema4/tema4.component';
 import { Test1Component } from './tests/test1/test1.component';
 import { Test2Component } from './tests/test2/test2.component';
+import { Test3Component } from './tests/test3/test3.component';
+import { Test4Component } from './tests/test4/test4.component';
+import { Test5Component } from './tests/test5/test5.component';
+import { Test6Component } from './tests/test6/test6.component';
 import { OProekteComponent } from './o-proekte/o-proekte.component';
 import { PractikaComponent } from './practika/practika.component';
 import { Tema6Component } from './teoriya/tema6/tema6.component';
@@ -22,7 +26,8 @@ import { Tema7Component } from './teoriya/tema7/tema7.component';
 import { IgriComponent } from './practika/igri/igri.component';
 import {GimnastikaComponent} from './practika/gimnastika/gimnastika.component';
 import { ElementsComponent } from './practika/gimnastika/elements/elements.component';
-import { Test4Component } from './test4/test4.component';
+import { Elements2Component } from './practika/igri/elements2/elements2.component';
+ 
 @NgModule({
   declarations: [
     AppComponent,
@@ -37,6 +42,10 @@ import { Test4Component } from './test4/test4.component';
     Tema4Component,
     Test1Component,
     Test2Component,
+    Test3Component,
+    Test4Component,
+    Test5Component,
+    Test6Component,
     OProekteComponent,
     PractikaComponent,
     Tema6Component,
@@ -45,7 +54,8 @@ import { Test4Component } from './test4/test4.component';
     IgriComponent,
     GimnastikaComponent,
     ElementsComponent,
-    Test4Component
+    Elements2Component,
+    
   ],
   imports: [
     BrowserModule,
